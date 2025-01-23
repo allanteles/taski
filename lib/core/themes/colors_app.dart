@@ -7,4 +7,5 @@ class ColorsApp {
   static const Color secondary = Color(0xFF3F3D56);
   static const Color terciary = Color(0xFF8D9CB8);
   static const Color surface = Color(0xFFF5F7F9);
+  static const Color background = Color(0xFFFFFFFF);
 }
