@@ -14,7 +14,13 @@ class ThemeApp {
       surface: ColorsApp.surface,
       error: Colors.redAccent,
     ),
-    elevatedButtonTheme:
-        ElevatedButtonThemeData(style: AppStyles.primaryButtonStyle),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: AppStyles.primaryButtonStyle,
+    ),
+    appBarTheme: const AppBarTheme(
+      backgroundColor: ColorsApp.background,
+      elevation: 0,
+      iconTheme: IconThemeData(color: ColorsApp.primary),
+    ),
   );
 }

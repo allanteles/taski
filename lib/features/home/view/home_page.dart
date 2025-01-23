@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taski/components/appbar_app.dart';
 import 'package:taski/features/home/components/task_card_app.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,8 +14,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
+      appBar: AppbarApp(
+        name: 'John',
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
