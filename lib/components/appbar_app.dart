@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:taski/core/themes/colors_app.dart';
 import 'package:taski/core/themes/text_styles_app.dart';
+import 'package:heroicons/heroicons.dart';
 
 class AppbarApp extends AppBar {
   final String name;
@@ -15,10 +16,9 @@ class AppbarApp extends AppBar {
                 ),
                 height: 32,
                 width: 32,
-                child: const Icon(
-                  Icons.check,
+                child: const HeroIcon(
+                  HeroIcons.check,
                   color: Colors.white,
-                  size: 22,
                 ),
               ),
               const SizedBox(width: 8),
